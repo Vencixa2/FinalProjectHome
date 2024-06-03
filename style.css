@@ -46,6 +46,9 @@ HEADER
 .home:hover {
     color: #e5e5e5;
 }
+.fa-bars {
+    display: none;
+}
 
 /*
 
@@ -243,4 +246,32 @@ BUTTONS
 .btn-bottom-right {
     position: absolute;
     right: 20%;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+    .explanation {
+        width: 100%;
+        position: static;
+        padding-top: 200px;
+    }
+    .right-side {
+        display: none;
+    }
+    .fa-bars {
+        display: block;
+        position: absolute;
+        right: 12.5%;
+        cursor: pointer;
+    }
+    .mob-nav-container {
+        height: 100%;
+        position: absolute;
+        width: 100%;
+        top: 85px;
+        background-color: #2a2a2a;
+        z-index: 100;
+    }
 }
