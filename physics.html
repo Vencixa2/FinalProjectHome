@@ -25,18 +25,27 @@
 
             <a class="home" href="index.html">C# + Unity</a>
 
+            <i class="fa-solid fa-bars" onclick="toggleNav()"></i>
+
             <i class="fa-regular fa-sun" onclick="nightModeToggle()" id="sun" title="Toggle Night Mode"></i>
             <i class="fa-regular fa-moon" onclick="nightModeToggle()" id="moon" title="Toggle Night Mode"></i>
 
         </header>
+
+        <div class="mob-nav-container">
+
+            
+
+        </div>
+
         <nav class="nav flex-column" id="nav">
 
             <a href="index.html" class="nav-link">Intro</a>
             <a href="tutorial.html" class="nav-link">Tutorial</a>
             <a href="objects.html" class="nav-link">Objects & Components</a>
-            <a class="nav-link" onclick="toggleDropdown2D()">2D <i class="fa-solid fa-chevron-down"></i></a> 
+            <a class="nav-link" onclick="toggleDropdown2D()">2D <i class="fa-solid fa-chevron-down drop"></i></a> 
 
-            <div class="dropdown" id="dropdown">
+            <div class="dropdown drop" id="dropdown">
 
                 <a href="physics.html" class="nav-link current-page">2D Physics</a>
 
@@ -61,7 +70,7 @@
                 <div class="text-layout">
 
 
-
+ 
                 </div>
             </div>
         </div>
